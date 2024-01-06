@@ -118,15 +118,6 @@ h6,
         background: #FFFFFF;
     }
 
-    .navbar-light {
-        transition: background 0.5s ease;
-        z-index: 999;
-    }
-
-    .active-light-bar {
-        background: #FFF;
-    }
-
     .navbar-light .navbar-collapse {
         margin-top: 15px;
         border-top: 1px solid #ffffff;
