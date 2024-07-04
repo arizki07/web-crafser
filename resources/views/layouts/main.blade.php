@@ -20,7 +20,7 @@
     <!-- ====== Footer Section End -->
 
     <!-- ====== Components Start -->
-    @include('layouts/compo')
+    @include('layouts/components')
     <!-- ====== Components End -->
 
     <!-- ====== All Scripts -->

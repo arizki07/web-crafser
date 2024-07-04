@@ -1,5 +1,5 @@
 <!-- favicon -->
-<link rel="shortcut icon" href="<?= base_url() ?>landing/assets/images/logo/wci-single.png" />
+<link rel="shortcut icon" href="{{ asset('landing/assets/images/logo/wci-single.png') }}" />
 
 <!-- theme meta -->
 <meta name="theme-name" content="Pinwheel" />

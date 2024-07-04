@@ -1,5 +1,4 @@
 <script src="{{ asset('landing/assets/js/swiper-bundle.min.js') }}"></script>
-<!-- <script src="<?= base_url() ?>landing/assets/js/main.js"></script> -->
 <script>
     ! function() {
         "use strict";

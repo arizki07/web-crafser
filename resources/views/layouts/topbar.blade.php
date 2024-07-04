@@ -2,7 +2,7 @@
     <div class="container">
         <div class="relative -mx-4 flex items-center justify-between">
             <div class="w-60 max-w-full px-4">
-                <a href="<?= current_url() ?>" class="navbar-logo block w-full py-5">
+                <a href="#" class="navbar-logo block w-full py-5">
                     <img src="{{ asset('landing/assets/images/logo/logo-white.svg') }}" alt="logo"
                         class="header-logo w-full" />
                 </a>
@@ -19,37 +19,34 @@
                         class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:bg-dark-2 lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:px-4 lg:py-0 lg:shadow-none dark:lg:bg-transparent xl:px-6">
                         <ul class="blcok lg:flex 2xl:ml-20">
                             <li class="group relative">
-                                <a href="<?= base_url('/') ?>"
-                                    class="mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 underline"
-                                    <?= $active == 'home' ? ' style="text-decoration: underline 2px;"' : '' ?>>
+                                <a href="/"
+                                    class="mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 underline {{ $active == 'Home' ? 'active' : '' }}"
+                                    style="{{ $active == 'Home' ? 'text-decoration: underline 2px;' : '' }}">
                                     Home
                                 </a>
                             </li>
+
                             <li class="group relative">
-                                <a href="<?= base_url('web-crafter-service/tentang-kami') ?>"
-                                    class="mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
-                                    <?= $active == 'about' ? ' style="text-decoration: underline 2px;"' : '' ?>>
-                                    Tentang Kami
-                                </a>
+                                <a href="{{ route('about') }}"
+                                    class="mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10 {{ $active == 'About' ? 'active' : '' }}"
+                                    style="{{ $active == 'About' ? 'text-decoration: underline 2px;' : '' }}">
+                                    Tentang Kami </a>
                             </li>
                             <li class="group relative">
-                                <a href="<?= base_url('web-crafter-service/proyek-kami') ?>"
-                                    class="mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
-                                    <?= $active == 'proyek' ? ' style="text-decoration: underline 2px;"' : '' ?>>
-                                    Proyek
-                                </a>
+                                <a href="{{ route('project') }}"
+                                    class="mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10 {{ $active == 'Project' ? 'active' : '' }}"
+                                    style="{{ $active == 'Project' ? 'text-decoration: underline 2px;' : '' }}">
+                                    Project </a>
                             </li>
                             <li class="group relative">
-                                <a href="<?= base_url('web-crafter-service/team-developers') ?>"
-                                    class="mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
-                                    <?= $active == 'team' ? ' style="text-decoration: underline 2px;"' : '' ?>>
-                                    Team Developers
-                                </a>
+                                <a href="{{ route('team') }}"
+                                    class="mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10 {{ $active == 'Team' ? 'active' : '' }}"
+                                    style="{{ $active == 'Team' ? 'text-decoration: underline 2px;' : '' }}">
+                                    Team Developers </a>
                             </li>
                             <li class="submenu-item group relative">
                                 <a href="javascript:void(0)"
-                                    class="relative mx-8 flex items-center justify-between py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-8 lg:mr-0 lg:inline-flex lg:py-6 lg:pl-0 lg:pr-4 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
-                                    <?= $active == 'semua-layanan' || $active == 'jasa-website' || $active == 'jasa-ui-ux' || $active == 'jasa-skripsi' || $active == 'jasa-design-grafis' || $active == 'jasa-seo' || $active == 'jasa-maintanance-it' ? ' style="text-decoration: underline 2px;"' : '' ?>>
+                                    class="relative mx-8 flex items-center justify-between py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-8 lg:mr-0 lg:inline-flex lg:py-6 lg:pl-0 lg:pr-4 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10 {{ $active == 'semua-layanan' || $active == 'jasa-website' || $active == 'jasa-ui-ux' || $active == 'jasa-skripsi' || $active == 'jasa-design-grafis' || $active == 'jasa-seo' || $active == 'jasa-maintanance-it' ? ' style="text-decoration: underline 2px;"' : '' }}">
                                     Layanan
                                     <svg class="ml-2 fill-current" width="16" height="20" viewBox="0 0 16 20"
                                         fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -59,43 +56,36 @@
                                 </a>
                                 <div
                                     class="submenu relative left-0 top-full hidden w-[250px] rounded-sm bg-white p-4 transition-[top] duration-300 group-hover:opacity-100 dark:bg-dark-2 lg:invisible lg:absolute lg:top-[110%] lg:block lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full">
-                                    <a href="<?= base_url('web-crafter-service/hubungi-kami') ?>"
-                                        class="block rounded px-4 py-[10px] text-sm text-body-color hover:text-primary dark:text-dark-6 dark:hover:text-primary">
-                                        Hubungi Web Crafser
+                                    <a href="{{ route('contact') }}"
+                                        class="block rounded px-4 py-[10px] text-sm text-body-color hover:text-primary dark:text-dark-6 dark:hover:text-primary ">
+                                        Hubungi Web Crafter
                                     </a>
-                                    <a href="<?= base_url('web-crafter-service/layanan/semua-layanan') ?>"
-                                        class="block rounded px-4 py-[10px] text-sm text-body-color hover:text-primary dark:text-dark-6 dark:hover:text-primary"
-                                        <?= $active == 'semua-layanan' ? ' style="color: blue; font-weight: bold;"' : '' ?>>
+                                    <a href="{{ route('semua.layanan') }}"
+                                        class="block rounded px-4 py-[10px] text-sm text-body-color hover:text-primary dark:text-dark-6 dark:hover:text-primary ">
                                         Semua Layanan
                                     </a>
-                                    <a href="<?= base_url('web-crafter-service/layanan/jasa-website') ?>"
-                                        class="block rounded px-4 py-[10px] text-sm text-body-color hover:text-primary dark:text-dark-6 dark:hover:text-primary"
-                                        <?= $active == 'jasa-website' ? ' style="color: blue; font-weight: bold;"' : '' ?>>
+                                    <a href="{{ route('jasa-website') }}"
+                                        class="block rounded px-4 py-[10px] text-sm text-body-color hover:text-primary dark:text-dark-6 dark:hover:text-primary ">
                                         Jasa Pembuatan Website
                                     </a>
-                                    <a href="<?= base_url('web-crafter-service/layanan/jasa-seo') ?>"
-                                        class="block rounded px-4 py-[10px] text-sm text-body-color hover:text-primary dark:text-dark-6 dark:hover:text-primary"
-                                        <?= $active == 'jasa-seo' ? ' style="color: blue; font-weight: bold;"' : '' ?>>
+                                    <a href="{{ route('jasa.seo') }}"
+                                        class="block rounded px-4 py-[10px] text-sm text-body-color hover:text-primary dark:text-dark-6 dark:hover:text-primary ">
                                         Jasa SEO
                                     </a>
-                                    <a href="<?= base_url('web-crafter-service/layanan/jasa-skripsi') ?>"
-                                        class="block rounded px-4 py-[10px] text-sm text-body-color hover:text-primary dark:text-dark-6 dark:hover:text-primary"
-                                        <?= $active == 'jasa-skripsi' ? ' style="color: blue; font-weight: bold;"' : '' ?>>
+                                    <a href="{{ route('jasa.skripsi') }}"
+                                        class="block rounded px-4 py-[10px] text-sm text-body-color hover:text-primary dark:text-dark-6 dark:hover:text-primary ">
                                         Jasa Konsultasi Skripsi
                                     </a>
-                                    <a href="<?= base_url('web-crafter-service/layanan/jasa-ui-ux') ?>"
-                                        class="block rounded px-4 py-[10px] text-sm text-body-color hover:text-primary dark:text-dark-6 dark:hover:text-primary"
-                                        <?= $active == 'jasa-ui-ux' ? ' style="color: blue; font-weight: bold;"' : '' ?>>
+                                    <a href="{{ route('jasa.ui') }}"
+                                        class="block rounded px-4 py-[10px] text-sm text-body-color hover:text-primary dark:text-dark-6 dark:hover:text-primary ">
                                         UI/UX Website
                                     </a>
-                                    <a href="<?= base_url('web-crafter-service/layanan/jasa-design-grafis') ?>"
-                                        class="block rounded px-4 py-[10px] text-sm text-body-color hover:text-primary dark:text-dark-6 dark:hover:text-primary"
-                                        <?= $active == 'jasa-design-grafis' ? ' style="color: blue; font-weight: bold;"' : '' ?>>
+                                    <a href="{{ route('jasa.design') }}"
+                                        class="block rounded px-4 py-[10px] text-sm text-body-color hover:text-primary dark:text-dark-6 dark:hover:text-primary ">
                                         Jasa Design Grafis
                                     </a>
-                                    <a href="<?= base_url('web-crafter-service/layanan/jasa-maintanance-it') ?>"
-                                        class="block rounded px-4 py-[10px] text-sm text-body-color hover:text-primary dark:text-dark-6 dark:hover:text-primary"
-                                        <?= $active == 'jasa-maintanance-it' ? ' style="color: blue; font-weight: bold;"' : '' ?>>
+                                    <a href="{{ route('jasa.maintenance') }}"
+                                        class="block rounded px-4 py-[10px] text-sm text-body-color hover:text-primary dark:text-dark-6 dark:hover:text-primary ">
                                         Jasa Maintanance IT
                                     </a>
                                 </div>
@@ -146,14 +136,14 @@
                         </span>
                     </label>
                     <div class="sm:flex">
-                        <a href="<?= base_url('web-crafter-service/hubungi-kami') ?>"
+                        <a href="#"
                             class="loginBtn px-[22px] py-2 text-base font-medium text-white hover:opacity-70 hidden sm:flex">
                             Contact
                         </a>
                         <a href="https://api.whatsapp.com/send?phone=6281312211348&text=Saya%20ingin%20konsultasi%2C%20apakah%20ini%20dengan%20Web%20Crafster%20Service%20Cirebon%3F"
                             target="_blank"
                             class="signUpBtn rounded-md bg-white bg-opacity-20 px-6 py-2 text-base font-medium text-white duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark sm:bg-dark shadow-lg">
-                            Chat
+                            Konsultasi
                         </a>
                     </div>
                 </div>

@@ -15,13 +15,13 @@
                         </p>
                         <ul class="mb-10 flex flex-wrap items-center justify-center gap-5">
                             <li>
-                                <a href="<?= base_url('web-crafter-service/hubungi-kami') ?>"
+                                <a href="{{ asset('web-crafter-service/hubungi-kami') }}"
                                     class="inline-flex items-center justify-center rounded-md bg-white px-7 py-[14px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-gray-2 hover:text-body-color relative z-10">
                                     Hubungi
                                 </a>
                             </li>
                             <li>
-                                <a href="<?= base_url('web-crafter-service/tentang-kami') ?>"
+                                <a href="{{ asset('web-crafter-service/tentang-kami') }}"
                                     class="flex items-center gap-4 rounded-md bg-white/[0.12] px-6 py-[14px] text-base font-medium text-white transition duration-300 ease-in-out hover:bg-white hover:text-dark relative z-10">
                                     <i class="fas fa-user-tie"></i>
                                     Tentang Kami
@@ -73,18 +73,18 @@
                         <div class="w-full px-4">
                             <div class="wow fadeInUp relative z-10 mx-auto max-w-[845px]" data-wow-delay=".25s">
                                 <!-- <div class="mt-16">
-                      <img
-                        src="assets/images/hero/hero-image.jpg"
-                        alt="hero"
-                        class="mx-auto max-w-full rounded-t-xl rounded-tr-xl"
-                      />
-                    </div> -->
+                                                                                                                                                                  <img
+                                                                                                                                                                    src="assets/images/hero/hero-image.jpg"
+                                                                                                                                                                    alt="hero"
+                                                                                                                                                                    class="mx-auto max-w-full rounded-t-xl rounded-tr-xl"
+                                                                                                                                                                  />
+                                                                                                                                                                </div> -->
                                 <div class="absolute -left-9 bottom-0 z-[-1]">
-                                    <img src="<?= base_url() ?>landing/assets/images/aksesoris/aksesoris-1.svg"
+                                    <img src="{{ asset('landing/assets/images/aksesoris/aksesoris-1.svg') }} "
                                         alt="Web Crafser">
                                 </div>
                                 <div class="absolute -right-6 -top-6 z-[-1]">
-                                    <img src="<?= base_url() ?>landing/assets/images/aksesoris/aksesoris-2.svg"
+                                    <img src="{{ asset('landing/assets/images/aksesoris/aksesoris-2.svg') }}"
                                         alt="Web Crafser">
                                 </div>
                             </div>
@@ -113,11 +113,11 @@
                                 tidak hanya menyediakan produk aplikasi yang sudah jadi, tetapi juga menawarkan jasa
                                 konsultasi IT. Dalam konsultasi IT, Web Crafter Service akan membimbing Anda dalam merancang
                                 aplikasi dan teknologi inovatif yang diperlukan untuk mengatasi permasalahan di lembaga
-                                Anda. <a href="<?= base_url('web-crafter-service/tentang-kami') ?>"
+                                Anda. <a href="{{ asset('web-crafter-service/tentang-kami') }}"
                                     style="color: #3758F9;">Selengkapnya...</a>
                             </p>
 
-                            <a href="<?= base_url('web-crafter-service/tentang-kami') ?>"
+                            <a href="{{ asset('web-crafter-service/tentang-kami') }}"
                                 class="inline-flex items-center justify-center rounded-md border border-primary bg-primary px-7 py-3 text-center text-base font-medium text-white hover:border-blue-dark hover:bg-blue-dark">
                                 Selengkapnya
                             </a>
@@ -128,7 +128,7 @@
                         <div class="-mx-2 flex flex-wrap sm:-mx-4 lg:-mx-2 xl:-mx-4">
                             <div class="w-full px-2 sm:w-1/2 sm:px-4 lg:px-2 xl:px-4">
                                 <div class="mb-4 sm:mb-8 sm:h-[400px] md:h-[540px] lg:h-[400px] xl:h-[500px]">
-                                    <img data-src="<?= base_url() ?>landing/assets/images/banner/banner-4.jpg"
+                                    <img data-src="{{ asset('landing/assets/images/banner/banner-4.jpg') }} "
                                         alt="Web Crafser - Web Crafter Service" title="Web Crafser - Web Crafter Service"
                                         class="h-full w-full object-cover object-center lazy" />
                                 </div>
@@ -137,7 +137,7 @@
                             <div class="w-full px-2 sm:w-1/2 sm:px-4 lg:px-2 xl:px-4">
                                 <div
                                     class="mb-4 sm:mb-8 sm:h-[220px] md:h-[346px] lg:mb-4 lg:h-[225px] xl:mb-8 xl:h-[310px]">
-                                    <img data-src="<?= base_url() ?>landing/assets/images/banner/banner-5.jpg"
+                                    <img data-src="{{ asset('landing/assets/images/banner/banner-5.jpg') }}"
                                         alt="Web Crafser - Web Crafter Service" title="Web Crafser - Web Crafter Service"
                                         class="h-full w-full object-cover object-center lazy" />
                                 </div>
@@ -259,7 +259,7 @@
                                     kebutuhan bisnis dan transformasi digital anda.’’
                                 </p>
                                 <p class="text-base text-body-secondary">
-                                    <a href="<?= base_url('web-crafter-service/layanan/jasa-website') ?>"
+                                    <a href="{{ asset('web-crafter-service/layanan/jasa-website') }}"
                                         class="text-primary hover:underline">
                                         Selengkapnya <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -283,7 +283,7 @@
                                     di pencarian google.’’
                                 </p>
                                 <p class="text-base text-body-secondary">
-                                    <a href="<?= base_url('web-crafter-service/layanan/jasa-seo') ?>"
+                                    <a href="{{ asset('web-crafter-service/layanan/jasa-seo') }}"
                                         class="text-primary hover:underline">
                                         Selengkapnya <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -307,7 +307,7 @@
                                     optimal baik melalui website maupun perangkat mobile.’’
                                 </p>
                                 <p class="text-base text-body-secondary">
-                                    <a href="<?= base_url('web-crafter-service/layanan/jasa-ui-ux') ?>"
+                                    <a href="{{ asset('web-crafter-service/layanan/jasa-ui-ux') }}"
                                         class="text-primary hover:underline">
                                         Selengkapnya <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -331,7 +331,7 @@
                                     perangkat lunak menggunakan teknologi yang sesuai dengan kebutuhan proyek Anda.’’
                                 </p>
                                 <p class="text-base text-body-secondary">
-                                    <a href="<?= base_url('web-crafter-service/layanan/jasa-website') ?>"
+                                    <a href="{{ asset('web-crafter-service/layanan/jasa-website') }}"
                                         class="text-primary hover:underline">
                                         Selengkapnya <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -355,7 +355,7 @@
                                     website anda dikelola kembali dengan baik.’’
                                 </p>
                                 <p class="text-base text-body-secondary">
-                                    <a href="<?= base_url('web-crafter-service/layanan/jasa-maintanance-it') ?>"
+                                    <a href="{{ asset('web-crafter-service/layanan/jasa-maintanance-it') }}"
                                         class="text-primary hover:underline">
                                         Selengkapnya <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -379,7 +379,7 @@
                                     lain-lain. Jangan ragu untuk menghubungi kami.’’
                                 </p>
                                 <p class="text-base text-body-secondary">
-                                    <a href="<?= base_url('web-crafter-service/layanan/jasa-design-grafis') ?>"
+                                    <a href="{{ asset('web-crafter-service/layanan/jasa-design-grafis') }}"
                                         class="text-primary hover:underline">
                                         Selengkapnya <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -403,7 +403,7 @@
                                     konsultasi, kami juga menyediakan jasa joki skripsi full sampai lulus.’’
                                 </p>
                                 <p class="text-base text-body-secondary">
-                                    <a href="<?= base_url('web-crafter-service/layanan/jasa-skripsi') ?>"
+                                    <a href="{{ asset('web-crafter-service/layanan/jasa-skripsi') }}"
                                         class="text-primary hover:underline">
                                         Selengkapnya <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -516,23 +516,23 @@
                             <div class="rounded-xl bg-white px-4 py-[30px] shadow-testimonial dark:bg-dark sm:px-[30px]">
                                 <div class="mb-[18px] flex items-center gap-[2px]">
                                     <img class="lazy"
-                                        data-src="<?= base_url() ?>landing/assets/images/testimonials/icon-star.svg"
+                                        data-src="{{ asset('landing/assets/images/testimonials/icon-star.svg') }} "
                                         alt="Web Crafser - Web Crafter Service"
                                         title="Web Crafser - Web Crafter Service" />
                                     <img class="lazy"
-                                        data-src="<?= base_url() ?>landing/assets/images/testimonials/icon-star.svg"
+                                        data-src="{{ asset('landing/assets/images/testimonials/icon-star.svg') }} "
                                         alt="Web Crafser - Web Crafter Service"
                                         title="Web Crafser - Web Crafter Service" />
                                     <img class="lazy"
-                                        data-src="<?= base_url() ?>landing/assets/images/testimonials/icon-star.svg"
+                                        data-src="{{ asset('landing/assets/images/testimonials/icon-star.svg') }} "
                                         alt="Web Crafser - Web Crafter Service"
                                         title="Web Crafser - Web Crafter Service" />
                                     <img class="lazy"
-                                        data-src="<?= base_url() ?>landing/assets/images/testimonials/icon-star.svg"
+                                        data-src="{{ asset('landing/assets/images/testimonials/icon-star.svg') }} "
                                         alt="Web Crafser - Web Crafter Service"
                                         title="Web Crafser - Web Crafter Service" />
                                     <img class="lazy"
-                                        data-src="<?= base_url() ?>landing/assets/images/testimonials/icon-star.svg"
+                                        data-src="{{ asset('landing/assets/images/testimonials/icon-star.svg') }} "
                                         alt="Web Crafser - Web Crafter Service"
                                         title="Web Crafser - Web Crafter Service" />
                                 </div>
@@ -542,10 +542,10 @@
                                     memberikan solusi standar, tapi juga punya ide-ide segar yang sesuai dengan kebutuhan.’’
                                 </p>
 
-                                <a href="<?= current_url() ?>" class="flex items-center gap-4">
+                                <a href="#" class="flex items-center gap-4">
                                     <!-- <div class="h-[50px] w-[50px] overflow-hidden rounded-full">
-                  <img src="https://ridhorattan.com/Source/dist/images/rotan.png" alt="author" class="h-[50px] w-[50px] overflow-hidden rounded-full" />
-                </div> -->
+                                                                                                                                                              <img src="https://ridhorattan.com/Source/dist/images/rotan.png" alt="author" class="h-[50px] w-[50px] overflow-hidden rounded-full" />
+                                                                                                                                                            </div> -->
                                     <div>
                                         <h3 class="text-sm font-semibold text-dark dark:text-white">
                                             Jasa Website E-Commerce Produk Rotan
@@ -560,23 +560,23 @@
                             <div class="rounded-xl bg-white px-4 py-[30px] shadow-testimonial dark:bg-dark sm:px-[30px]">
                                 <div class="mb-[18px] flex items-center gap-[2px]">
                                     <img class="lazy"
-                                        data-src="<?= base_url() ?>landing/assets/images/testimonials/icon-star.svg"
+                                        data-src="{{ asset('landing/assets/images/testimonials/icon-star.svg') }} "
                                         alt="Web Crafser - Web Crafter Service"
                                         title="Web Crafser - Web Crafter Service" />
                                     <img class="lazy"
-                                        data-src="<?= base_url() ?>landing/assets/images/testimonials/icon-star.svg"
+                                        data-src="{{ asset('landing/assets/images/testimonials/icon-star.svg') }} "
                                         alt="Web Crafser - Web Crafter Service"
                                         title="Web Crafser - Web Crafter Service" />
                                     <img class="lazy"
-                                        data-src="<?= base_url() ?>landing/assets/images/testimonials/icon-star.svg"
+                                        data-src="{{ asset('landing/assets/images/testimonials/icon-star.svg') }} "
                                         alt="Web Crafser - Web Crafter Service"
                                         title="Web Crafser - Web Crafter Service" />
                                     <img class="lazy"
-                                        data-src="<?= base_url() ?>landing/assets/images/testimonials/icon-star.svg"
+                                        data-src="{{ asset('landing/assets/images/testimonials/icon-star.svg') }}"
                                         alt="Web Crafser - Web Crafter Service"
                                         title="Web Crafser - Web Crafter Service" />
                                     <img class="lazy"
-                                        data-src="<?= base_url() ?>landing/assets/images/testimonials/icon-star.svg"
+                                        data-src="{{ asset('landing/assets/images/testimonials/icon-star.svg') }} "
                                         alt="Web Crafser - Web Crafter Service"
                                         title="Web Crafser - Web Crafter Service" />
                                 </div>
@@ -586,10 +586,10 @@
                                     setiap kebutuhan atau pertanyaan yang kita miliki.’’
                                 </p>
 
-                                <a href="<?= current_url() ?>" class="flex items-center gap-4">
+                                <a href="#" class="flex items-center gap-4">
                                     <!-- <div class="h-[50px] w-[50px] overflow-hidden rounded-full">
-                  <img src="https://ridhorattan.com/Source/dist/images/rotan.png" alt="author" class="h-[50px] w-[50px] overflow-hidden rounded-full" />
-                </div> -->
+                                                                                                                                                              <img src="https://ridhorattan.com/Source/dist/images/rotan.png" alt="author" class="h-[50px] w-[50px] overflow-hidden rounded-full" />
+                                                                                                                                                            </div> -->
                                     <div>
                                         <h3 class="text-sm font-semibold text-dark dark:text-white">
                                             Geografis Infomation System
@@ -604,23 +604,23 @@
                             <div class="rounded-xl bg-white px-4 py-[30px] shadow-testimonial dark:bg-dark sm:px-[30px]">
                                 <div class="mb-[18px] flex items-center gap-[2px]">
                                     <img class="lazy"
-                                        data-src="<?= base_url() ?>landing/assets/images/testimonials/icon-star.svg"
+                                        data-src="{{ asset('landing/assets/images/testimonials/icon-star.svg') }}"
                                         alt="Web Crafser - Web Crafter Service"
                                         title="Web Crafser - Web Crafter Service" />
                                     <img class="lazy"
-                                        data-src="<?= base_url() ?>landing/assets/images/testimonials/icon-star.svg"
+                                        data-src="{{ asset('landing/assets/images/testimonials/icon-star.svg') }} "
                                         alt="Web Crafser - Web Crafter Service"
                                         title="Web Crafser - Web Crafter Service" />
                                     <img class="lazy"
-                                        data-src="<?= base_url() ?>landing/assets/images/testimonials/icon-star.svg"
+                                        data-src="{{ asset('landing/assets/images/testimonials/icon-star.svg') }}"
                                         alt="Web Crafser - Web Crafter Service"
                                         title="Web Crafser - Web Crafter Service" />
                                     <img class="lazy"
-                                        data-src="<?= base_url() ?>landing/assets/images/testimonials/icon-star.svg"
+                                        data-src="{{ asset('landing/assets/images/testimonials/icon-star.svg') }}"
                                         alt="Web Crafser - Web Crafter Service"
                                         title="Web Crafser - Web Crafter Service" />
                                     <img class="lazy"
-                                        data-src="<?= base_url() ?>landing/assets/images/testimonials/icon-star.svg"
+                                        data-src="{{ asset('landing/assets/images/testimonials/icon-star.svg') }}"
                                         alt="Web Crafser - Web Crafter Service"
                                         title="Web Crafser - Web Crafter Service" />
                                 </div>
@@ -630,10 +630,10 @@
                                     jika kita mengalami kendala atau butuh bantuan.’’
                                 </p>
 
-                                <a href="<?= current_url() ?>" class="flex items-center gap-4">
+                                <a href="#" class="flex items-center gap-4">
                                     <!-- <div class="h-[50px] w-[50px] overflow-hidden rounded-full">
-                  <img src="https://ridhorattan.com/Source/dist/images/rotan.png" alt="author" class="h-[50px] w-[50px] overflow-hidden rounded-full" />
-                </div> -->
+                                                                                                                                                              <img src="https://ridhorattan.com/Source/dist/images/rotan.png" alt="author" class="h-[50px] w-[50px] overflow-hidden rounded-full" />
+                                                                                                                                                            </div> -->
                                     <div>
                                         <h3 class="text-sm font-semibold text-dark dark:text-white">
                                             Sistem Monitoring Siswa SMPN 2 Sumber
@@ -648,23 +648,23 @@
                             <div class="rounded-xl bg-white px-4 py-[30px] shadow-testimonial dark:bg-dark sm:px-[30px]">
                                 <div class="mb-[18px] flex items-center gap-[2px]">
                                     <img class="lazy"
-                                        data-src="<?= base_url() ?>landing/assets/images/testimonials/icon-star.svg"
+                                        data-src="{{ asset('landing/assets/images/testimonials/icon-star.svg') }}"
                                         alt="Web Crafser - Web Crafter Service"
                                         title="Web Crafser - Web Crafter Service" />
                                     <img class="lazy"
-                                        data-src="<?= base_url() ?>landing/assets/images/testimonials/icon-star.svg"
+                                        data-src="{{ asset('landing/assets/images/testimonials/icon-star.svg') }}"
                                         alt="Web Crafser - Web Crafter Service"
                                         title="Web Crafser - Web Crafter Service" />
                                     <img class="lazy"
-                                        data-src="<?= base_url() ?>landing/assets/images/testimonials/icon-star.svg"
+                                        data-src="{{ asset('landing/assets/images/testimonials/icon-star.svg') }}"
                                         alt="Web Crafser - Web Crafter Service"
                                         title="Web Crafser - Web Crafter Service" />
                                     <img class="lazy"
-                                        data-src="<?= base_url() ?>landing/assets/images/testimonials/icon-star.svg"
+                                        data-src="{{ asset('landing/assets/images/testimonials/icon-star.svg') }}"
                                         alt="Web Crafser - Web Crafter Service"
                                         title="Web Crafser - Web Crafter Service" />
                                     <img class="lazy"
-                                        data-src="<?= base_url() ?>landing/assets/images/testimonials/icon-star.svg"
+                                        data-src="{{ asset('landing/assets/images/testimonials/icon-star.svg') }}"
                                         alt="Web Crafser - Web Crafter Service"
                                         title="Web Crafser - Web Crafter Service" />
                                 </div>
@@ -675,10 +675,10 @@
                                     mereka.’’
                                 </p>
 
-                                <a href="<?= current_url() ?>" class="flex items-center gap-4">
+                                <a href="#" class="flex items-center gap-4">
                                     <!-- <div class="h-[50px] w-[50px] overflow-hidden rounded-full">
-                  <img src="https://ridhorattan.com/Source/dist/images/rotan.png" alt="author" class="h-[50px] w-[50px] overflow-hidden rounded-full" />
-                </div> -->
+                                                                                                                                                              <img src="https://ridhorattan.com/Source/dist/images/rotan.png" alt="author" class="h-[50px] w-[50px] overflow-hidden rounded-full" />
+                                                                                                                                                            </div> -->
                                     <div>
                                         <h3 class="text-sm font-semibold text-dark dark:text-white">
                                             SI Pembelajaran B.INggris SDN Pejambon
@@ -739,7 +739,7 @@
                         <div class="wow fadeInUp group" data-wow-delay=".1s">
                             <div class="mb-8 overflow-hidden rounded-[10px]">
                                 <a href="https://ridhorattan.com" target="_blank" class="block">
-                                    <img data-src="<?= base_url() ?>landing/assets/images/project/cv ridho.png"
+                                    <img data-src="{{ asset('landing/assets/images/project/cv ridho.png') }}"
                                         alt="Web Crafser - Web Crafter Service" title="Web Crafser - Web Crafter Service"
                                         class="w-full transition group-hover:rotate-6 group-hover:scale-125 lazy" />
                                 </a>
@@ -768,8 +768,8 @@
                         data-wow-delay=".15s">
                         <div class="wow fadeInUp group" data-wow-delay=".15s">
                             <div class="mb-8 overflow-hidden rounded-[10px]">
-                                <a href="<?= base_url('error') ?>" class="block">
-                                    <img data-src="<?= base_url() ?>landing/assets/images/project/raport.png"
+                                <a href="#" class="block">
+                                    <img data-src="{{ asset('landing/assets/images/project/raport.png') }}"
                                         alt="Web Crafser - Web Crafter Service" title="Web Crafser - Web Crafter Service"
                                         class="w-full transition group-hover:rotate-6 group-hover:scale-125 lazy" />
                                 </a>
@@ -780,7 +780,7 @@
                                     Date : -
                                 </span>
                                 <h3>
-                                    <a href="<?= base_url('error') ?>"
+                                    <a href="#"
                                         class="inline-block mb-4 text-xl font-semibold text-dark dark:text-white hover:text-primary dark:hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl">
                                         Edu-Raport
                                     </a>
@@ -800,7 +800,7 @@
                             <div class="mb-8 overflow-hidden rounded-[10px]">
                                 <a href="https://demo-smpn12sumber.000webhostapp.com/login" target="_blank"
                                     class="block">
-                                    <img data-src="<?= base_url() ?>landing/assets/images/project/monitoring.png"
+                                    <img data-src="{{ asset('landing/assets/images/project/monitoring.png') }}"
                                         alt="Web Crafser - Web Crafter Service" title="Web Crafser - Web Crafter Service"
                                         class="w-full transition group-hover:rotate-6 group-hover:scale-125 lazy" />
                                 </a>
@@ -825,7 +825,7 @@
                 </div>
 
                 <div class="mb-10 mt-12 wow fadeInUp group mx-auto flex flex-wrap" data-wow-delay=".15s">
-                    <a href="<?= base_url('web-crafter-service/proyek-kami') ?>"
+                    <a href="{{ asset('web-crafter-service/proyek-kami') }}"
                         class="inline-flex items-center justify-center rounded-md border border-primary bg-primary px-6 py-2 text-center text-base font-medium text-white hover:border-blue-dark hover:bg-blue-dark">
                         Selengkapnya
                     </a>
@@ -991,14 +991,14 @@
                     <div
                         class="group mb-8 rounded-xl bg-white px-5 pb-10 pt-12 shadow-testimonial dark:bg-dark dark:shadow-none">
                         <div class="relative z-10 mx-auto mb-5 h-[120px] w-[120px]">
-                            <img data-src="<?= base_url('landing/assets/images/developers/syarif.png') ?>"
+                            <img data-src="{{ asset('landing/assets/images/developers/syarif.png') }}"
                                 alt="Web Crafser - Web Crafter Service" title="Web Crafser - Web Crafter Service"
                                 class="h-[120px] w-[120px] rounded-full lazy" />
                             <span
                                 class="absolute bottom-0 left-0 -z-10 h-10 w-10 rounded-full bg-secondary opacity-0 transition-all group-hover:opacity-100"></span>
                             <span class="absolute right-0 top-0 -z-10 opacity-0 transition-all group-hover:opacity-100">
                                 <!--Aksesoris-3-->
-                                <img src="<?= base_url('landing/assets/images/aksesoris/aksesoris-3.svg') ?>"
+                                <img src="{{ asset('landing/assets/images/aksesoris/aksesoris-3.svg') }}"
                                     alt="Web Crafser">
                             </span>
                         </div>
@@ -1050,14 +1050,14 @@
                     <div
                         class="group mb-8 rounded-xl bg-white px-5 pb-10 pt-12 shadow-testimonial dark:bg-dark dark:shadow-none">
                         <div class="relative z-10 mx-auto mb-5 h-[120px] w-[120px]">
-                            <img data-src="<?= base_url('landing/assets/images/developers/rizki.jpg') ?>"
+                            <img data-src="{{ asset('landing/assets/images/developers/rizki.jpg') }}"
                                 alt="Web Crafser - Web Crafter Service" title="Web Crafser - Web Crafter Service"
                                 class="h-[120px] w-[120px] rounded-full lazy" />
                             <span
                                 class="absolute bottom-0 left-0 -z-10 h-10 w-10 rounded-full bg-secondary opacity-0 transition-all group-hover:opacity-100"></span>
                             <span class="absolute right-0 top-0 -z-10 opacity-0 transition-all group-hover:opacity-100">
                                 <!--Aksesoris 3-->
-                                <img src="<?= base_url('landing/assets/images/aksesoris/aksesoris-3.svg') ?>"
+                                <img src="{{ asset('landing/assets/images/aksesoris/aksesoris-3.svg') }}"
                                     alt="Web Crafser">
                             </span>
                         </div>
@@ -1092,10 +1092,10 @@
                                             fill="" />
                                     </svg>
                                 </a>
-                                <a href="<?= current_url() ?>" class="text-dark-6 hover:text-primary">
+                                <a href="#" class="text-dark-6 hover:text-primary">
                                     <i class="fa-brands fa-linkedin-in"></i>
                                 </a>
-                                <a href="<?= current_url() ?>" class="text-dark-6 hover:text-primary">
+                                <a href="#" class="text-dark-6 hover:text-primary">
                                     <i class="fas fa-globe"></i>
                                 </a>
                             </div>
@@ -1106,14 +1106,14 @@
                     <div
                         class="group mb-8 rounded-xl bg-white px-5 pb-10 pt-12 shadow-testimonial dark:bg-dark dark:shadow-none">
                         <div class="relative z-10 mx-auto mb-5 h-[120px] w-[120px]">
-                            <img data-src="<?= base_url('landing/assets/images/developers/dimas.png') ?>"
+                            <img data-src="{{ asset('landing/assets/images/developers/dimas.png') }}"
                                 alt="Web Crafser - Web Crafter Service" title="Web Crafser - Web Crafter Service"
                                 class="h-[120px] w-[120px] rounded-full lazy" />
                             <span
                                 class="absolute bottom-0 left-0 -z-10 h-10 w-10 rounded-full bg-secondary opacity-0 transition-all group-hover:opacity-100"></span>
                             <!--Aksesoris-3-->
                             <span class="absolute right-0 top-0 -z-10 opacity-0 transition-all group-hover:opacity-100">
-                                <img src="<?= base_url('landing/assets/images/aksesoris/aksesoris-3.svg') ?>"
+                                <img src="{{ asset('landing/assets/images/aksesoris/aksesoris-3.svg') }}"
                                     alt="Web Crafser">
                             </span>
                         </div>
@@ -1125,10 +1125,10 @@
                                 Web Development
                             </p>
                             <div class="flex items-center justify-center gap-5">
-                                <a href="<?= current_url() ?>" class="text-dark-6 hover:text-primary">
+                                <a href="#" class="text-dark-6 hover:text-primary">
                                     <i class="fa-brands fa-facebook-f"></i>
                                 </a>
-                                <a href="<?= current_url() ?>" class="text-dark-6 hover:text-primary">
+                                <a href="#" class="text-dark-6 hover:text-primary">
                                     <i class="fa-brands fa-github"></i>
                                 </a>
                                 <a href="https://www.instagram.com/dp_pangestu_dimas" target="_blank"
@@ -1151,7 +1151,7 @@
                                     class="text-dark-6 hover:text-primary">
                                     <i class="fa-brands fa-linkedin-in"></i>
                                 </a>
-                                <a href="<?= current_url() ?>" class="text-dark-6 hover:text-primary">
+                                <a href="#" class="text-dark-6 hover:text-primary">
                                     <i class="fas fa-globe"></i>
                                 </a>
                             </div>

@@ -3,7 +3,7 @@
         <div class="-mx-4 flex flex-wrap">
             <div class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12">
                 <div class="mb-10 w-full">
-                    <a href="<?= current_url() ?>" class="mb-6 inline-block max-w-[160px]">
+                    <a href="#" class="mb-6 inline-block max-w-[160px]">
                         <img src="{{ asset('landing/assets/images/logo/wci-long-white.png') }}" alt="logo"
                             class="max-w-full" />
                     </a>
@@ -59,14 +59,12 @@
                     <h4 class="mb-9 text-lg font-semibold text-white">Links</h4>
                     <ul>
                         <li>
-                            <a href="<?= base_url('/') ?>"
-                                class="mb-3 inline-block text-base text-gray-7 hover:text-primary">
+                            <a href="#" class="mb-3 inline-block text-base text-gray-7 hover:text-primary">
                                 Home
                             </a>
                         </li>
                         <li>
-                            <a href="<?= base_url('web-crafter-service/tentang-kami') ?>"
-                                class="mb-3 inline-block text-base text-gray-7 hover:text-primary">
+                            <a href="#" class="mb-3 inline-block text-base text-gray-7 hover:text-primary">
                                 Tentang Kami
                             </a>
                         </li>
@@ -77,8 +75,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="<?= base_url('web-crafter-service/proyek-kami') ?>"
-                                class="mb-3 inline-block text-base text-gray-7 hover:text-primary">
+                            <a href="#" class="mb-3 inline-block text-base text-gray-7 hover:text-primary">
                                 Proyek
                             </a>
                         </li>
@@ -102,14 +99,12 @@
                             </a>
                         </li>
                         <li>
-                            <a href="<?= base_url('error') ?>"
-                                class="mb-3 inline-block text-base text-gray-7 hover:text-primary">
+                            <a href="#" class="mb-3 inline-block text-base text-gray-7 hover:text-primary">
                                 FAQ
                             </a>
                         </li>
                         <li>
-                            <a href="<?= base_url('web-crafter-service/hubungi-kami') ?>"
-                                class="mb-3 inline-block text-base text-gray-7 hover:text-primary">
+                            <a href="#" class="mb-3 inline-block text-base text-gray-7 hover:text-primary">
                                 Contact
                             </a>
                         </li>
@@ -123,26 +118,22 @@
                     </h4>
                     <ul>
                         <li>
-                            <a href="<?= base_url('error') ?>"
-                                class="mb-3 inline-block text-base text-gray-7 hover:text-primary">
+                            <a href="#" class="mb-3 inline-block text-base text-gray-7 hover:text-primary">
                                 Jasa Pembuatan Website
                             </a>
                         </li>
                         <li>
-                            <a href="<?= base_url('error') ?>"
-                                class="mb-3 inline-block text-base text-gray-7 hover:text-primary">
+                            <a href="#" class="mb-3 inline-block text-base text-gray-7 hover:text-primary">
                                 Jasa Design Grafis
                             </a>
                         </li>
                         <li>
-                            <a href="<?= base_url('error') ?>"
-                                class="mb-3 inline-block text-base text-gray-7 hover:text-primary">
+                            <a href="#" class="mb-3 inline-block text-base text-gray-7 hover:text-primary">
                                 Jasa Maintanance IT
                             </a>
                         </li>
                         <li>
-                            <a href="<?= base_url('error') ?>"
-                                class="mb-3 inline-block text-base text-gray-7 hover:text-primary">
+                            <a href="#" class="mb-3 inline-block text-base text-gray-7 hover:text-primary">
                                 Jasa Lainnya
                             </a>
                         </li>
@@ -153,8 +144,7 @@
                 <div class="mb-10 w-full">
                     <h4 class="mb-9 text-lg font-semibold text-white">Project Terkahir</h4>
                     <div class="flex flex-col gap-8">
-                        <a href="<?= base_url('web-crafter-service/proyek-kami') ?>"
-                            class="group flex items-center gap-[22px]">
+                        <a href="#" class="group flex items-center gap-[22px]">
                             <div class="overflow-hidden rounded">
                                 <img src="{{ asset('landing/assets/images/project/monitoring.png') }}" alt="blog"
                                     style="width: 100px;" />
@@ -162,8 +152,7 @@
                             <span class="max-w-[180px] text-base text-gray-7 group-hover:text-white">Sistem Informasi
                                 Monitoring Siswa...</span>
                         </a>
-                        <a href="<?= base_url('web-crafter-service/proyek-kami') ?>"
-                            class="group flex items-center gap-[22px]">
+                        <a href="#" class="group flex items-center gap-[22px]">
                             <div class="overflow-hidden rounded">
                                 <img src="{{ asset('landing/assets/images/project/cv ridho.png') }}" alt="blog"
                                     style="width: 100px;" />
@@ -214,7 +203,7 @@
                     <div class="my-1 flex justify-center">
                         <p class="text-base text-gray-7">
                             &copy; 2023 - 2024
-                            <a href="<?= current_url() ?>" rel="nofollow noopner" target="_blank"
+                            <a href="#" rel="nofollow noopner" target="_blank"
                                 class="text-gray-1 hover:underline">
                                 Web Crafter Service.
                             </a>
