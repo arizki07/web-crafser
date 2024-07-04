@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\Auth\AuthController;
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LayananController;
 use Illuminate\Support\Facades\Route;
@@ -31,4 +33,19 @@ Route::controller(LayananController::class)->group(function () {
     Route::get('/jasa-ui', 'jasaUI')->name('jasa.ui');
     Route::get('/jasa-design', 'jasaDesignGrafis')->name('jasa.design');
     Route::get('/jasa-maintenance', 'jasaMaintanance')->name('jasa.maintenance');
+});
+
+Route::controller(AuthController::class)->group(function () {
+    Route::get('/login', 'index');
+    Route::post('/login', 'authenticate')->name('post.login');
+    Route::get('/logout', 'logout');
+});
+
+Route::middleware('auth')->group(function () {
+    Route::get('/loading', function () {
+        return view('auth.loading');
+    })->name('loading');
+    Route::controller(DashboardController::class)->group(function () {
+        Route::get('/dashboard', 'index')->name('dashboard');
+    });
 });
