@@ -174,7 +174,7 @@
 
 
                     <div class="d-none d-xl-block ps-2">
-                        <div>{{ Auth::user()->username }}</div>
+                        <div>{{ Auth::user()->name }}</div>
                         <div class="mt-1 small text-secondary">{{ Auth::user()->role }}</div>
                     </div>
                 </a>

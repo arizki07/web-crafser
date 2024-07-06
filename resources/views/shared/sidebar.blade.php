@@ -251,13 +251,10 @@
                     <div class="dropdown-menu">
                         <div class="dropdown-menu-columns">
                             <div class="dropdown-menu-column">
-                                <a class="dropdown-item" href="./alerts.html">
+                                <a class="dropdown-item" href="{{ url('project/index') }}">
                                     Daftar Proyek
                                 </a>
-                                <a class="dropdown-item" href="./accordion.html">
-                                    Detail Proyek
-                                </a>
-                                <a class="dropdown-item" href="./blank.html">
+                                <a class="dropdown-item" href="{{ url('sistem-tugas') }}">
                                     Sistem Tugas
                                 </a>
                             </div>
@@ -287,10 +284,10 @@
                     <div class="dropdown-menu">
                         <div class="dropdown-menu-columns">
                             <div class="dropdown-menu-column">
-                                <a class="dropdown-item" href="./alerts.html">
+                                <a class="dropdown-item" href="{{ url('klien') }}">
                                     Daftar Klien
                                 </a>
-                                <a class="dropdown-item" href="./accordion.html">
+                                <a class="dropdown-item" href="/riwayat">
                                     Riwayat Project Klien
                                 </a>
                                 <a class="dropdown-item" href="./blank.html">
@@ -323,7 +320,7 @@
                     <div class="dropdown-menu">
                         <div class="dropdown-menu-columns">
                             <div class="dropdown-menu-column">
-                                <a class="dropdown-item" href="./alerts.html">
+                                <a class="dropdown-item" href="{{ url('anggota') }}">
                                     Daftar Anggota
                                 </a>
                                 <a class="dropdown-item" href="./accordion.html">
@@ -353,7 +350,7 @@
                             </svg>
                         </span>
                         <span class="nav-link-title">
-                            Manajemen Keuangan
+                            Keuangan
                         </span>
                     </a>
                     <div class="dropdown-menu">

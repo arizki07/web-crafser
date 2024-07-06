@@ -1,7 +1,7 @@
 @include('shared.head')
 
 <body>
-    <script src="assets/dist/js/demo-theme.min.js?1692870487"></script>
+    <script src="{{ asset('assets/dist/js/demo-theme.min.js?1692870487') }}"></script>
     <div class="page">
         <!-- Sidebar -->
         @include('shared.sidebar')
